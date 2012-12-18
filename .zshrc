@@ -16,6 +16,7 @@ promptinit
 ### Options
 setopt hist_ignore_all_dups # turn off duplicates in history
 setopt no_auto_menu         # turn off items substitution
+setopt nohashcmds           # turn off hashing command
 unsetopt equals
 
 ### Prompt
