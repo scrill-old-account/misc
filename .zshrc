@@ -19,6 +19,10 @@ setopt no_auto_menu         # turn off items substitution
 setopt nohashcmds           # turn off hashing command
 unsetopt equals
 
+if [[ -s ~/.profile ]]; then
+  source ~/.profile
+fi
+
 ### Prompt
 if [[ $(uname -r) == *gentoo* ]]; then
   prompt gentoo
