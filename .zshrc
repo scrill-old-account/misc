@@ -5,7 +5,7 @@
 HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=$HISTSIZE
-PATH=/usr/local/sbin:/usr/sbin:~/.gem/ruby/1.8/bin:~/.bin:${PATH}
+PATH=/usr/local/sbin:/usr/sbin:~/.bin:${PATH}
 
 ### Modules
 autoload -U compinit colors promptinit
